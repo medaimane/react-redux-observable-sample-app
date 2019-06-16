@@ -19,7 +19,7 @@ export default function configureStore() {
             epicMiddleware
         ),
      ),
-     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+     // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
  );
 
  epicMiddleware.run(rootEpic);
