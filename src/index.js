@@ -7,7 +7,7 @@ import store from "./redux/store";
 const RootElement = document.getElementById('root');
 
 ReactDOM.render((
-    <Provider store={store}>
+    <Provider store={store()}>
         <ConnectedComponent/>
     </Provider>
     ),
