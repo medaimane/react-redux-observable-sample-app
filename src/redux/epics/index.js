@@ -1,3 +1,6 @@
-import {combineEpics} from "redux-observable";
+import {combineEpics} from 'redux-observable';
+import {attemptLoginEpic} from '../../Auth/AuthEpic';
 
-export default combineEpics();
+export default combineEpics(
+    attemptLoginEpic
+);
